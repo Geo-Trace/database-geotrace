@@ -1,0 +1,12 @@
+[
+  {
+    "_id": ObjectId("631f4d1cbbf548291279c7eb"),
+    "nom": "Circuit des 4 monts",
+    "activite": "VTT",
+    "distance": 53,
+    "difficulte": 3,
+    "denivele": 516,
+    "image": "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png",
+    "secteurGeo": 59280
+  }
+]
