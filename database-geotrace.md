@@ -9,6 +9,8 @@
 
   - Installation manuelle sur un seul système:
 
+    mongod --config /mongod.conf
+
     script ./mongodb.sh : installation sur un système linux
     Le répertoire racine de la BDD doit contenir les sous répertoires :
         - /data/db
