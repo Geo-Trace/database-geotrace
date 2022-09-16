@@ -2,21 +2,21 @@
 
 - Type de base de données (BDD):
   
-  La base de données est de type NOSQL
-  Le système de Gestion de Base de Données (SGBD) choisi est MongoDB
+    La base de données est de type NOSQL
+    Le système de Gestion de Base de Données (SGBD) choisi est MongoDB
 
 - configuration de MongoDB:
 
-    - Installation manuelle sur un seul système:
+  - Installation manuelle sur un seul système:
 
-        script ./mongodb.sh : installation sur un système linux
-        Le répertoire racine de la BDD doit contenir les sous répertoires :
-          - /data/db
-          - /usr/local/mongodb/logs
+    script ./mongodb.sh : installation sur un système linux
+    Le répertoire racine de la BDD doit contenir les sous répertoires :
+        - /data/db
+        - /usr/local/mongodb/logs
 
-    - Installation automatisée par déploiement:
+  - Installation automatisée par déploiement:
 
-        TBD. : docker-compose, kubernetes...
+      TBD. : docker-compose, kubernetes...
 
 - pilote du langage pour manipuler la BDD:
 
