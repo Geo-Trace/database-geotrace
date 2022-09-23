@@ -27,7 +27,7 @@
         même procédure que précédemment pour rajouter une ligne au Path des variables d'environnement
 
         se placer dans:
-            C:\Users\Philippe REICH\DevOps\projet\database-geotrace
+            ~/database-geotrace
         créer le répertoire data
 
   - Installation manuelle sur un seul système:
