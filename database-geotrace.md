@@ -12,14 +12,19 @@
         install mongoDB (exec MSI)
         install mongoDB Shell 
 
-        To add the MongoDB Shell binary's location to your PATH environment variable:
-        Open the Control Panel.
-        In the System and Security category, click System.
-        Click Advanced system settings. The System Properties modal displays.
-        Click Environment Variables.
-        In the System variables section, select Path and click Edit. The Edit environment variable modal displays.
-        Click New and add the filepath to your mongosh binary.
-        Click OK to confirm your changes. On each other modal, click OK to confirm your changes.
+        Pour rajouter les emplacements des MongoDB Shell binary au PATH des variables d'environnement:
+        Ouvrir le panneau de configuration.
+        System and Securité , cliquer Systeme.
+        Cliquer Paramètres avancés du système. 
+        Dans Paramètres Systèmes Avancés, cliquer sur Variables d'environnement.
+        selectionner Path et modifier. 
+        Click nouveau et ajouter le chemin où ont été installés les bins.
+        Confirmer avec OK sur chaque fenêtre.
+
+        Installer les outils MongoDB database Tools: (pour exécuter un dump, import, export)
+        https://www.mongodb.com/try/download/database-tools?tck=docs_databasetools
+        copier les bin contenus dans le .zip dans le répertoire MongoDB
+        même procédure que précédemment pour rajouter une ligne au Path des variables d'environnement
 
         se placer dans:
             C:\Users\Philippe REICH\DevOps\projet\database-geotrace
