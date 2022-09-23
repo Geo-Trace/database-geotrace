@@ -30,6 +30,10 @@
             ~/database-geotrace
         créer le répertoire data
 
+        alimenter la base de données avec les fichiers contenus dans dump/database-geotrace
+        
+        mongorestore.exe -d database-geotrace dump/database-geotrace
+
   - Installation manuelle sur un seul système:
 
         mongod --config /mongod.conf
@@ -51,5 +55,12 @@
 
 https://github.com/DataDog/the-monitor/blob/master/mongodb/monitoring-mongodb-performance-metrics-wiredtiger.md
 https://www.datadoghq.com/blog/monitoring-mongodb-performance-metrics-mmap/
+
+- dump de la BDD: 
+
+    mongodump -d database-geotrace
+
+- restauration de la BDD: 
+    mongorestore.exe -d database-geotrace dump/database-geotrace
 
 - ...
