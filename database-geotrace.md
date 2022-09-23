@@ -2,8 +2,8 @@
 
 - Type de base de données (BDD):
   
-    La base de données est de type NOSQL
-    Le système de Gestion de Base de Données (SGBD) choisi est MongoDB
+        La base de données est de type NOSQL
+        Le système de Gestion de Base de Données (SGBD) choisi est MongoDB
 
 - configuration de MongoDB:
 
@@ -34,7 +34,7 @@
         
         mongorestore.exe -d database-geotrace dump/database-geotrace
 
-  - Installation manuelle sur un seul système:
+  - Installation manuelle sur un seul système linux:
 
         mongod --config /mongod.conf
 
@@ -49,18 +49,19 @@
 
 - pilote du langage pour manipuler la BDD:
 
-    Voir selon langage (Python, Javascript...)
+        Voir selon langage (Python, Javascript...)
 
 - Monitoring des performances de MongoDB:
 
-https://github.com/DataDog/the-monitor/blob/master/mongodb/monitoring-mongodb-performance-metrics-wiredtiger.md
-https://www.datadoghq.com/blog/monitoring-mongodb-performance-metrics-mmap/
+        https://github.com/DataDog/the-monitor/blob/master/mongodb/monitoring-mongodb-performance-metrics-wiredtiger.md
+        https://www.datadoghq.com/blog/monitoring-mongodb-performance-metrics-mmap/
 
 - dump de la BDD: 
 
-    mongodump -d database-geotrace
+        mongodump -d database-geotrace  
 
 - restauration de la BDD: 
-    mongorestore.exe -d database-geotrace dump/database-geotrace
+
+        mongorestore.exe -d database-geotrace dump/database-geotrace
 
 - ...
