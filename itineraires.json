@@ -8,12 +8,23 @@
   "difficulte": 3,
   "denivele": 516,
   "image": "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png",
+  "descriptif": "Rando en pleine campagne, quelques monts à franchir,
+
+  Le mont Noir
+  Le mont Kokereel
+  Le mont Boeschepe
+  Le mont des Cats
+  
+  le tracé est relativement plat, quelques jolies grimpettes sur les 4 monts, mais relativement courtes, un bon bol d'air au calme garanti !
+  
+  Retour par de petites routes de campagne et les berges de la LYS." ,  
   "secteurGeo": [
     "59280",
     "Armentières",
     "Hauts de France"
   ]
-},{
+},
+{
   "_id": {
     "$oid": "63231cd6bbf548291279c7ed"
   },
@@ -23,24 +34,28 @@
   "difficulte": 2,
   "denivele": 97,
   "image": "https://i.postimg.cc/cJxpdX8t/Chemin-Du-Belv-d-re.png",
+  "descriptif": "Chemin Du Belvédère est une boucle de randonnée de 28 km qui offre un regard pluriel sur les richesses des paysages et du patrimoine minier du Douaisis.
+  Chemin géré par la Communauté d'Agglomération du Douaisis",  
   "secteurGeo": [
     "59194",
     "Râches",
     "Hauts de France"
   ]
-},{
-  "_id": {
-    "$oid": "63231ceabbf548291279c7ee"
-  },
-  "nom": "Bassin Minier Nord-Pas de Calais: Le Valenciennois, berceau de l'épopée minière",
-  "activite": "rando",
-  "distance": 59,
-  "difficulte": 3,
-  "denivele": 337,
-  "image": "https://i.postimg.cc/J0cpGHgY/Bassin-Minier-Nord-Pas-de-Calais-Le-Valenciennois-berceau-de-l-pop-e-mini-re.png",
-  "secteurGeo": [
-    "59192",
-    "Raismes",
-    "Hauts de France"
-  ]
-}]
+  },{
+    "_id": {
+      "$oid": "63231ceabbf548291279c7ee"
+    },
+    "nom": "Bassin Minier Nord-Pas de Calais: Le Valenciennois, berceau de l'épopée minière",
+    "activite": "rando",
+    "distance": 59,
+    "difficulte": 3,
+    "denivele": 337,
+    "image": "https://i.postimg.cc/J0cpGHgY/Bassin-Minier-Nord-Pas-de-Calais-Le-Valenciennois-berceau-de-l-pop-e-mini-re.png",
+    "descriptif": "Balade nature",  
+    "secteurGeo": [
+      "59192",
+      "Raismes",
+      "Hauts de France"
+    ]
+  }
+]
