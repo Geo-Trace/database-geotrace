@@ -1,0 +1,8 @@
+commitlint.config.js
+data_itineraire.json
+injection_BDD.yml
+LICENSE
+*.md 
+.*
+sonar-project.properties
+Dockerfile
