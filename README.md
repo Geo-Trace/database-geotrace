@@ -1,6 +1,7 @@
 # database-geotrace
 Database de l'application Geo-Trace
 
+
 ## Configuration de la base de données Geotrace
 
 - Type de base de données (BDD):
@@ -66,5 +67,4 @@ Database de l'application Geo-Trace
 - restauration de la BDD: 
 
         mongorestore.exe -d database-geotrace dump/database-geotrace
-
 - ...

@@ -20,4 +20,12 @@ db.avis.insert( { nom: "Reich",
     contact: "preich@free.fr",
     activites: ["VTT", "Rando"],
     historique: ["Circuit des 4 monts"],
+<<<<<<< HEAD
     favoris: "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png" });
+=======
+<<<<<<< HEAD
+    favoris: "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png" });
+=======
+    favoris: "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png" });
+>>>>>>> 10032b2c81b9e346892e5362081f5d40f86dd9b4
+>>>>>>> develop
