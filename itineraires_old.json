@@ -42,6 +42,24 @@
     "Hauts de France"
   ]
 <<<<<<< HEAD:itineraires_old.json
+},
+{
+  "_id": {
+    "$oid": "63231ceabbf548291279c7ee"
+  },
+  "nom": "Bassin Minier Nord-Pas de Calais: Le Valenciennois, berceau de l'épopée minière",
+  "activite": "rando",
+  "distance": 59,
+  "difficulte": 3,
+  "denivele": 337,
+  "image": "https://i.postimg.cc/J0cpGHgY/Bassin-Minier-Nord-Pas-de-Calais-Le-Valenciennois-berceau-de-l-pop-e-mini-re.png",
+  "descriptif": "Balade nature",  
+  "secteurGeo": [
+    "59192",
+    "Raismes",
+    "Hauts de France"
+  ]
+}
 },{
   "_id": {
     "$oid": "63231ceabbf548291279c7ee"
@@ -59,28 +77,4 @@
     "Hauts de France"
   ]
 }
-
-=======
-  },{
-    "_id": {
-      "$oid": "63231ceabbf548291279c7ee"
-    },
-    "nom": "Bassin Minier Nord-Pas de Calais: Le Valenciennois, berceau de l'épopée minière",
-    "activite": "rando",
-    "distance": 59,
-    "difficulte": 3,
-    "denivele": 337,
-    "image": "https://i.postimg.cc/J0cpGHgY/Bassin-Minier-Nord-Pas-de-Calais-Le-Valenciennois-berceau-de-l-pop-e-mini-re.png",
-    "descriptif": "Balade nature",  
-    "secteurGeo": [
-      "59192",
-      "Raismes",
-      "Hauts de France"
-    ]
-  }
-<<<<<<< HEAD
->>>>>>> 281f46e54dfa8a1e6232d59b4d78ff6b4496fb38:itineraires.json
-=======
->>>>>>> 10032b2c81b9e346892e5362081f5d40f86dd9b4:itineraires.json
->>>>>>> develop
 ]
