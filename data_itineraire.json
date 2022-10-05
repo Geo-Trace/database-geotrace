@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "_id": {"ObjectId":"631f4d1cbbf548291279c7eb"},
   "nom": "Circuit des 4 monts",
   "activite": "VTT",
@@ -18,3 +19,24 @@
   Retour par de petites routes de campagne et les berges de la LYS",
   "secteurGeo": ["59280", "Armentières", "Hauts de France"]
 }
+=======
+    "_id": {"ObjectId":"631f4d1cbbf548291279c7eb"},
+    "nom": "Circuit des 4 monts",
+    "activite": "VTT",
+    "distance": 53,
+    "difficulte": 3,
+    "denivele": 516,
+    "image": "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png",
+    "descriptif": "Rando en pleine campagne, quelques monts à franchir,
+  
+    Le mont Noir
+    Le mont Kokereel
+    Le mont Boeschepe
+    Le mont des Cats
+    
+    le tracé est relativement plat, quelques jolies grimpettes sur les 4 monts, mais relativement courtes, un bon bol d'air au calme garanti !
+    
+    Retour par de petites routes de campagne et les berges de la LYS",
+    "secteurGeo": ["59280", "Armentières", "Hauts de France"]
+  }
+>>>>>>> 10032b2c81b9e346892e5362081f5d40f86dd9b4
