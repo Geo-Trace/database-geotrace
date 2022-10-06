@@ -15,17 +15,10 @@ db.itineraire.insert( { nom: "De la voie romaine au Paris Roubaix", activite: "r
 db.itineraire.insert( { nom: "De la voie romaine au Paris Roubaix", activite: "rando", distance: 17, difficulte: 2, denivele: 72, image: "https://i.postimg.cc/XYBSY3JP/De-la-voie-romaine-au-Paris-Roubaix.png", secteurGeo: ["59780", "Camphin-en-Pévèle", "Hauts de France"] });
 db.avis.insert( { "Id_utilisateur": 
     date: "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png", commentaire: "Lameilleure rando que j'ai faite! Bien physique, avec pas mal de grosses montées vers les monts, mais un bon compromis. Pas trop de routes, une majorité de tronçons en terre et cailloux. Attention à bien suivre précisément l'itinéraire au début, ", note: 5 });
-db.avis.insert( { nom: "Reich",
+db.utilisateur.insert( { nom: "Reich",
     prenom: "Philippe",
     contact: "preich@free.fr",
     activites: ["VTT", "Rando"],
     historique: ["Circuit des 4 monts"],
-<<<<<<< HEAD
     favoris: "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png" });
-=======
-<<<<<<< HEAD
-    favoris: "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png" });
-=======
-    favoris: "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png" });
->>>>>>> 10032b2c81b9e346892e5362081f5d40f86dd9b4
->>>>>>> develop
+

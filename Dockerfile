@@ -7,15 +7,6 @@ WORKDIR /app
 
 COPY . .
 
-
-RUN mongod --config /mongod.conf
-
-
-
-
-
-
-
-
-
-
+CMD  {mongosh \
+&& docker run -d -p 27017:27017 docker/mongo}
+# RUN mongod --config /mongod.conf
