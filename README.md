@@ -62,9 +62,33 @@ Database de l'application Geo-Trace
 
 - dump de la BDD: 
 
-        mongodump -d database-geotrace  
+        mongodump 
 
 - restauration de la BDD: 
 
         mongorestore.exe -d database-geotrace dump/database-geotrace
 - ...
+## utilisation de la BDD conteneurisée :
+
+- chargement des conteneurs:
+
+        docker compose up -d
+
+        lance le fichier de chargement des 2 conteneurs mongodb (la base de données) et mongo-express (web app pour gérer la BDD)
+
+- lancement des conteneurs:
+
+        commencer par la BDD:
+        
+        docker exec -it mongodb bash
+
+        pour pouvoir exécuter la commande #mongosh et accéder à la BDD
+
+        puis on peut lancer mongo-express qui permet de gérer la BDD via le navigateur:
+
+        docker exec -it mongo-express bash
+
+        dans le navigateur, se connecter sur localhost:8081
+        login: admin
+        mot de passe: admin123
+        

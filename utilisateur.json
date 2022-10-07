@@ -1,9 +1,1 @@
-{
-    "_id": {"ObjectId":"631f4d1cbbf548291279c7eb"},
-    "nom": "Reich",
-    "prenom": "Philippe",
-    "contact": "preich@free.fr",
-    "activites":["VTT", "Rando"],
-    "historique": ["Circuit des 4 monts"]
-    "favoris": "https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png"
-  }
+[{"_id":{"$oid":"633fef85a286aed77450ea11"},"nom":"Reich","prenom":"Philippe","contact":"preich@free.fr","activites":["VTT","Rando"],"historique":["Circuit des 4 monts"],"favoris":"https://i.postimg.cc/Bn2sH5PM/Circuit-des-4-monts.png"}]
