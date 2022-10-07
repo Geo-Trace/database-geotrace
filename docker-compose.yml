@@ -4,8 +4,8 @@ services:
     image : mongo
     container_name: mongodb
     environment:
-    - MONGO_INITDB_ROOT_USERNAME=root
-    - MONGO_INITDB_ROOT_PASSWORD=rootroot
+    - PUID=1000
+    - PGID=1000
     volumes:
     - /mongodb/database:/data/db
     ports:
