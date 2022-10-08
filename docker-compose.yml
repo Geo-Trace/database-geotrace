@@ -11,12 +11,26 @@ services:
     ports:
     - 27017:27017
     healthcheck:
-      test: echo 'db.runCommand("ping").ok' | mongo localhost:27017/test --quiet
+      test: 
+        - echo 'db.runCommand("ping").ok' | mongo localhost:27017/test --quiet
+
       interval: 30s
       timeout: 10s
       retries: 3
     restart: unless-stopped
 
+  migration:
+    build: .
+    image: mongo
+    volumes:
+    - /mongodb/database:/data/db
+    command:  ["sh", "./chargeBDD.sh"]
+    links:
+      - mongodb
+    depends_on:
+      - mongodb  
+
+      
   mongo-express:
     image: mongo-express
     container_name: mongo-express

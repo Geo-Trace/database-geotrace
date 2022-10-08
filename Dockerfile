@@ -3,10 +3,9 @@ FROM mongo
 LABEL version="1.0"
 LABEL description="base de données de l'application Geotrace"
 
-WORKDIR /app
+WORKDIR /
 
 COPY . .
 
-CMD  {mongosh \
-&& docker run -d -p 27017:27017 docker/mongo}
-# RUN mongod --config /mongod.conf
+CMD  {docker cp D:\Devops\geotrace\database-geotrace/dump/dumpfromcontainer mongodb:/dump \
+    && docker exec -it mongodb /usr/bin/mongorestore --db database-geotrace /dump/database-geotrace }
